@@ -1,0 +1,40 @@
+.PromoCard {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.PromoCard img {
+  width: 100%;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+.PromoCard p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0 !important;
+  color: #fff;
+  font-size: 25px;
+  width: 100%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.PromoCard:last-child {
+  margin-top: 20px !important;
+}
+
+.PromoCard:hover img {
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+          transform: scale3d(1.1, 1.1, 1);
+}
+
+.PromoCard:hover p {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
